@@ -19,7 +19,7 @@ const path=require('path')
 
 function sendRes(url, contentType, res)
 {
-    let file=path.join(__dirname+'/WEB-SITE NASTYA MATYCHENKO/',url)
+    let file=path.join(__dirname+'/Web-site/',url)
     fs.readFile(file,(error,content)=>
     {
         if(error)
